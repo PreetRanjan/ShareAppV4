@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page - ShareAppV3</title>
+    <link href="wwwroot/css/bootstrap-pulse.css" rel="stylesheet" />
+    <link rel="stylesheet" href="wwwroot/css/site.css" />
+</head>
+
+<body>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="/">☁ ShareApp</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+                    aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/">🏠 Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/Files">📂 Files</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/Files/Upload">⬆ Upload</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/Home/Privacy">Privacy</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/Identity/Account/Register">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/Identity/Account/Login">Login</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <div class="p-5 mb-4 bg-light rounded-3 shadow">
+                <div class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold">
+                        <span class="text-primary">My</span> <span class="text-success">Share</span> <span
+                            class="text-info">App</span><span class="text-dark"> v3.0</span>
+                    </h1>
+                    <p class="col-md-8 fs-4">Using this utility you can share files. This uses loacal server storage and
+                        azure storage account can be used too.</p>
+                    <p class="col-md-8 fs-4 fw-bold">This is for learning git and github from scratch.</p>
+                    <p><small>Version 3.0</small></p>
+                    <a class="btn btn-primary btn-lg" href="/Files">Go to Downloads</a>
+                </div>
+            </div>
+            <div class="text-center p-4 border shadow">
+
+
+                <div class="row p-4">
+                    <div class="col-md-4 p-2">
+                        <a class="btn btn-light" href="/Files/Upload">
+                            <div class="card border-0" style="width: auto;">
+                                <div src="..." class="card-img-top" alt="...">
+                                    <h1 class="display-1">🖥</h1>
+                                </div>
+                                <div class="card-body bg-light">
+                                    <h5 class="card-title">Upload</h5>
+                                    <p class="card-text">You can use local server or cloud upload.</p>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 p-2">
+                        <a class="btn btn-light" href="/Files">
+                            <div class="card border-0" style="width: auto;">
+                                <div src="..." class="card-img-top" alt="...">
+                                    <h1 class="display-1">💾</h1>
+                                </div>
+                                <div class="card-body bg-light">
+                                    <h5 class="card-title">Local Downloads</h5>
+                                    <p class="card-text">Access file uploaded in local path of the server.</p>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 p-2">
+                        <a class="btn btn-light" href="/CloudFiles">
+                            <div class="card border-0" style="width: auto;">
+                                <div src="..." class="card-img-top" alt="...">
+                                    <h1 class="display-1">🌥</h1>
+                                </div>
+                                <div class="card-body bg-light">
+                                    <h5 class="card-title">Cloud Storage</h5>
+                                    <p class="card-text">Access file uploaded in Azure storage.</p>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - 2023 - ShareAppV3 - Developed By - <a target="_blank"
+                href="https://github.com/PreetRanjan">PREETish</a> - <a href="/Home/Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="wwwroot/lib/jquery/dist/jquery.min.js"></script>
+
+    <script src="wwwroot/lib/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="wwwroot/lib/datatable/js/datatable.min.js"></script>
+    <script src="wwwroot/js/site.js?v=1552WqCEcXrmxwfdeKCCOA_78aYIJagToLIt61Wb5EQ"></script>
+
+    <script src="wwwroot/lib/signalr/signalr.js"></script>
+
+</body>
+
+</html>

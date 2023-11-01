@@ -1,0 +1,6 @@
+#ignore all .txt files
+*.txt
+*.scss
+*.map
+*.css.map
+*.rtl.css
